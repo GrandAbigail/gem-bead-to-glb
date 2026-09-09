@@ -9,8 +9,10 @@ PBR material whose colour, finish and internal pattern match the stone.
 
 ![sample beads](docs/beads.png)
 
-The bead above is not a photo wrapped onto a sphere. The texture is generated
-from a description of the mineral's structure, which is why it survives being
+*Rendered in three.js with an environment map — no post-processing.*
+
+None of these is a photo wrapped onto a sphere. Each texture is generated from
+a description of the mineral's structure, which is why it survives being
 rotated, tiled and lit from any angle.
 
 ## Why not just wrap the photo?
@@ -77,7 +79,8 @@ python3 gem-bead-to-glb/scripts/validate_glb.py rutilated.glb
 python3 gem-bead-to-glb/scripts/make_viewer.py rutilated.glb "金发晶" --out preview.html
 ```
 
-`references/materials.md` has a worked recipe for each stone pictured above.
+`references/materials.md` has worked recipes for the four stones above plus
+tiger's eye, kyanite and gold rutilated quartz.
 
 ## Notes for consuming scenes
 
